@@ -45,5 +45,6 @@ int main() {
     largePrice = stod(readLine("What's the price of a large pizza?: ")),
     pricePerTopping = stod(readLine("What's the price per topping?: "));
     priceCalc(pizzaName, smallPrice, largePrice, pricePerTopping);
+    readLine("type anything to exit: ");
     return 0;
 }
